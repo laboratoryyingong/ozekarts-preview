@@ -1,0 +1,14 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Cache-Control: public, max-age=0, must-revalidate
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+/wp-content/uploads/*
+  Cache-Control: public, max-age=86400
+/sw.js
+  Cache-Control: no-cache
